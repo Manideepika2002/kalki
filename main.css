@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Futura;
+}
+#nav{
+    /* border: 2px solid red; */
+    height: 60px;
+}
+#sub-nav{
+    /* border: 2px solid blue; */
+    height: inherit;
+    width: 95%;
+    margin: auto;
+}
+#left-nav{
+    margin-top: 30px;
+}
+#left-nav ol{
+    /* border: 2px solid; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    font-size: 15px;
+}
+#middle-nav{
+   position: absolute;
+   margin-top: -35px;
+    margin-left:450px;
+}
+#right-nav{
+    position: absolute;
+    margin-top: -35px;
+}
+#right-nav ol{
+    /* border: 2px solid; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 33%;
+    margin-left:810px ;
+    height: 40px;
+}
+#nav1{
+    border: 2px solid rgb(237, 236, 236);
+    height: 40px;
+}
+#sub-nav1{
+    /* border: 2px solid; */
+    height: inherit;
+    width: 95%;
+    margin: auto;
+}
+#sub-nav1 ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .875rem;
+    letter-spacing: 0;
+    font-weight: 400px;
+    padding: 10px;
+}
+#left-nav ol>li{
+    background-color: black;
+    color: white;
+}
+#left-nav ol>li+li{
+    background-color: white;
+    color: black;
+}
+#left-nav ol>li+li+li+li{
+    background-color: white;
+    color: #aa6437;
+    font-weight: 700;
+}
+#sub-nav1 :nth-child(10){
+    background-color: black;
+    color: white;
+}
+#sub-nav1 :nth-child(12) {
+    background-color: #aa6437;
+    color: white;
+}
+#carouselExampleIndicators{
+    width: 95%;
+    margin: auto;
+}
+#sub-svg{
+    /* border: 2px solid blue; */
+    width: 70%;
+    margin: auto;
+}
+#sub-svg ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#images{
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid; */
+    display: flex;
+}
+#img1{
+    background-image: url('./assets/01-mini-desk-400x533-banner-india-15-1-24.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    
+}
+#img1 h1{
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#img1 p{
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 80px;
+}
+#img2{
+    background-image: url('./assets/03-mini-desk-400x533-banner-india-15-1-24.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin-left: 10px;
+}
+#img2 h1{
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#img2 p{
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 80px;
+}
+#img3{
+    background-image: url('./assets/02-mini-desk-400x533-banner-india-16-1-24-new.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 300px;
+    margin-left: 15px;
+}
+#img3 h1{
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#img3 p{
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 80px;
+}
+#img4{
+    
+    margin-left: 15px;
+} 
+#img4 h1{
+    padding-top: 200px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#img4 p{
+    width: 100px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 80px;
+}
+
+
+
+
+
